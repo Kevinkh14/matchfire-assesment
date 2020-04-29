@@ -1,38 +1,72 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.page{
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  flex-direction: column;
+}
+.header{
+  display: flex;
+  z-index: 1;
+  justify-content: space-between;
+  background-color: white;
+  align-items: center;
+  width: 100%;
+  height: 16vh;
+  position: fixed;
+  top: 0;
+}
+.title-sec{
+  margin-left: 20px;
+  animation: animate .5s ease;
+  color: red;
+}
+.title{
+  color: red;
+  
+}
+.side-menu{
+  display: flex;
+  justify-content: space-between;
+  width: 400px;
+  margin-right: 20px;
+  animation: animate .5s ease;
+}
+.img-div{
+  width: 100%;
+  height: 750px;
+  overflow: hidden;
+ position: relative;
+ text-align: center;
+}
+.img{
+  width: 100%;
+  filter:brightness(60%);
+  opacity: 90%;
+}
+.img-text{
+  position: absolute;
+  top: 40%;
+  left: 10%;
   color: white;
+  animation: animate 1.5s ease;
 }
-
-.App-link {
-  color: #61dafb;
+p{
+  margin: 0;
 }
-
-@keyframes App-logo-spin {
+#donate{
+  color: red;
+}
+.link {
+  text-decoration: none;
+  color: black;
+}
+@keyframes animate {
   from {
-    transform: rotate(0deg);
+    transform: translateY(-200px);
+    opacity: 10%;
   }
-  to {
-    transform: rotate(360deg);
+  to{
+    transform: translateY(0px);
+    opacity: 100%;
   }
 }
