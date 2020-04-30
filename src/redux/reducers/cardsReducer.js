@@ -10,7 +10,8 @@ const initialState = {
     {id:5, title :"EDUCATION",pic:"https://randomwordgenerator.com/img/picture-generator/52e5d0414c51af14f1dc8460962e33791c3ad6e04e50744172287ad19f48c3_640.jpg"},
     {id:6, title :"ANIMAL WELFARE",pic:"https://randomwordgenerator.com/img/picture-generator/57e3dc454c57ad14f1dc8460962e33791c3ad6e04e50744172297ed2934ccc_640.jpg"},
     {id:7, title :"DIVERSITY & INCLUSION",pic:"https://randomwordgenerator.com/img/picture-generator/54e1dd4a4856a414f1dc8460962e33791c3ad6e04e507441722a72dc9448c3_640.jpg"},
-    {id:8, title :"CITY TOURISM &CULTURAL COUNCILS",pic:"https://randomwordgenerator.com/img/picture-generator/5ee2d3424a57b10ff3d8992cc12c30771037dbf85254794e722679d7934d_640.jpg"}
+    {id:8, title :"CITY TOURISM &CULTURAL COUNCILS",pic:"https://randomwordgenerator.com/img/picture-generator/5ee2d3424a57b10ff3d8992cc12c30771037dbf85254794e722679d7934d_640.jpg"},
+    {info:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."}
   ]
 };
 
@@ -34,7 +35,8 @@ export default function reducer(state = initialState, action) {
         ...state,
         id:payload.data,
         title: payload.data,
-        pic:payload.pic
+        pic:payload.pic,
+        info:payload.data
       };
 
     default:

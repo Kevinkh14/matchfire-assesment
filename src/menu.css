@@ -1,40 +1,74 @@
-.about{
-    width: 100%;
-    height: 400px;
-    overflow: hidden;
-   position: relative;
-   text-align: center;
-  }
-  .about-img{
-    width: 100%;
-    filter:brightness(60%);
-    opacity: 90%;
-  }
-  .about-text{
-    position: absolute;
-    top: 40%;
-    left: 10%;
-    color: white;
-    animation: animate 1.5s ease;
-    font-size: 60px;
-  }
-  .about-container{
-      width: 99vw;
-      height: 70vh;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-  }
-  .about-box{
-      width: 40%;
-      height: 90%;
-      border: rgb(199, 191, 191) 2px solid;
-      display: flex;
-      justify-content: center;
-      text-align: center;
-      flex-direction: column;
-  }
-  .about-txt{
-      color: rgb(104, 101, 101);
-  }
-  
+.about {
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+}
+.about-img {
+  width: 100%;
+  filter: brightness(60%);
+  opacity: 90%;
+}
+.about-text {
+  position: absolute;
+  top: 40%;
+  left: 10%;
+  color: white;
+  animation: animate 1.5s ease;
+  font-size: 60px;
+}
+.about-container {
+  width: 99vw;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about-box {
+  width: 40%;
+  height: 90%;
+  border: rgb(199, 191, 191) 2px solid;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+.about-txt {
+  color: rgb(104, 101, 101);
+}
+.apply-box {
+  width: 40%;
+  height: 90%;
+  border: rgb(199, 191, 191) 2px solid;
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+}
+.donate-box {
+  width: 40%;
+  height: 90%;
+  border: rgb(199, 191, 191) 2px solid;
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+}
+.donate-input {
+  height: 100px;
+  width: 400px;
+  font-size: 50px;
+  color: rgb(104, 101, 101);
+}
+.donate-btn {
+  height: 50px;
+  width: 200px;
+  color: white;
+  background-color: red;
+  border: red;
+  font-size: 20px;
+}

@@ -46,8 +46,20 @@
   top: 20%;
   left: 10%;
   background-color: rgb(235, 235, 235);
-  width: 80%;
+  width: 70%;
   height: 70%;
   z-index: 100;
   outline: none;
+  box-shadow: rgb(199, 195, 195) 3px 3px 3px;
+}
+.modal-pic{
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+  position: relative;
+  z-index: 0;
+}
+.info-txt{
+  margin: 20px;
+  color: rgb(104, 101, 101);
 }

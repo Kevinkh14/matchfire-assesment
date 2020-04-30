@@ -49,6 +49,7 @@
   left: 10%;
   color: white;
   animation: animate 1.5s ease;
+  z-index: 1;
 }
 p{
   margin: 0;

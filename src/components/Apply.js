@@ -13,13 +13,13 @@ function Apply(){
             <h1 className="about-text">Apply</h1>
           </div>
           <section className="about-container">
-              <div className = "about-box">
-                  <h1>Aplication</h1>
+              <div className = "apply-box">
+                  <h1>Application</h1>
                   <h1 className = "about-txt">First Name : <input></input></h1>
                   <h1 className = "about-txt">Last Name : <input></input></h1>
                   <h1 className = "about-txt">Phone Number : <input></input></h1>
                   <h1 className = "about-txt">Email : <input></input></h1>
-                  <button>Submit</button>
+                  <button className = "donate-btn">Submit</button>
               </div>
           </section>
     </div>
