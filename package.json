@@ -19,7 +19,7 @@
     "redux-promise-middleware": "^6.1.2"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "react-scripts start && gh-pages -d public -b master",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
