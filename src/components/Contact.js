@@ -8,7 +8,7 @@ function Contact(){
             <div className="about">
             <img
               className="about-img"
-              src="https://res.cloudinary.com/kevin14/image/upload/v1588199110/ghx0wkoqqzrygo5gvs08.jpg"
+              src="https://i.imgur.com/nJTtM43.jpg"
             ></img>
             <h1 className="about-text">Contact</h1>
           </div>

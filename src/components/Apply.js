@@ -8,7 +8,7 @@ function Apply(){
         <div className="about">
             <img
               className="about-img"
-              src="https://res.cloudinary.com/kevin14/image/upload/v1588199013/zoxwro7cwsxq59e5rkwq.jpg"
+              src="https://i.imgur.com/QVSlcUs.jpg"
             ></img>
             <h1 className="about-text">Apply</h1>
           </div>

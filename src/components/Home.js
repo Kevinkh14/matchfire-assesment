@@ -88,7 +88,7 @@ class Home extends Component {
           <div className="img-div">
             <img
               className="img"
-              src="https://res.cloudinary.com/kevin14/image/upload/v1588109128/xnhijwingirz33btqsey.jpg"
+              src="https://i.imgur.com/ghOoLeW.jpg"
             ></img>
             <h1 className="img-text">
               We award grants to nonprofits for{" "}
@@ -100,7 +100,7 @@ class Home extends Component {
           <section className="img-sct">
             <img
               className="img"
-              src="https://res.cloudinary.com/kevin14/image/upload/v1588109118/v6mdboyph5fhm4nuhcxd.jpg"
+              src="https://i.imgur.com/rCGqHuq.jpg"
             ></img>
             <h1 className="img-text2">Social Issue Category Examples</h1>
           </section>
