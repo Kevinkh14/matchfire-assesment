@@ -88,7 +88,7 @@ class Home extends Component {
           <div className="img-div">
             <img
               className="img"
-              src="https://i.imgur.com/ghOoLeW.jpg"
+              src="https://res.cloudinary.com/kevin14/image/upload/v1588109128/xnhijwingirz33btqsey.jpg"
             ></img>
             <h1 className="img-text">
               We award grants to nonprofits for{" "}
